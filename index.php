@@ -2,7 +2,7 @@
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__.'/functions.php';
 $owner = "18806566";
-$HSAPIKey = '4319d1d9-3adf-4c02-ad04-11b0d7dfd6ff';
+$HSAPIKey = 'HUBSPOT API KEY HERE';
 $csv = "contacts.csv";
 
 $hubspot = SevenShores\Hubspot\Factory::create($HSAPIKey);
